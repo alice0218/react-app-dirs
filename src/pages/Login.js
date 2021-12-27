@@ -4,14 +4,20 @@ import './Login.css';
 function Login() {
   return (
     <div className="Login flex-col">
-      Login
-      <button className="Google-bg Login-btn">
+      登入
+      <input type="text" name="Yourmail" placeholder="Email"></input>
+      <input type="password" name="YourPassword" placeholder="password"></input>
+
+      <button className="Login-bg Login-btn">
       <Link to="/profile" className="login-link">
-      Google
+      LOG IN
       </Link>
       </button>
-      <button className="Line-bg Login-btn">LINE</button>
-      <button className="FB-bg Login-btn">Facebook</button>
+      <button className="Line-bg Login-btn">
+       <Link to="/profile" className="login-link">
+       Sign Up
+      </Link>
+      </button>
     </div>
   );
 }

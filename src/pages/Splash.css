@@ -1,5 +1,5 @@
 .Splash {
-  background-color: #868686;
+  background-color: #e6e3dd;
 
   font-family: Inter;
   font-style: normal;
@@ -8,7 +8,7 @@
   line-height: 36px;
   text-align: center;
 
-  color: #ff0000;
+  color: #e9dcf8;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   min-height: 100vh;
@@ -20,6 +20,6 @@
 }
 
 .title-link{
-  color: #ff0000 !important;
+  color: #e9dcf8 !important;
   text-decoration:none;
 }
