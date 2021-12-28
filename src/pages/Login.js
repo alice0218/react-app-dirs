@@ -13,11 +13,12 @@ function Login() {
       LOG IN
       </Link>
       </button>
-      <button className="Line-bg Login-btn">
+      <button className="SignUp-bg SignUp-btn">
        <Link to="/profile" className="login-link">
        Sign Up
       </Link>
       </button>
+      Forgot Password?
     </div>
   );
 }
