@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Splash />} />
         <Route path="login" element={<Login />} />
-        <Route path="profile" element={<Profile />} />
+        <Route path="Profile" element={<Profile />} />
         <Route path="postdetail" element={<PostDetail />} />
       </Routes>
     </div>
